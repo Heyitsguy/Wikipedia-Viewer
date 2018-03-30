@@ -1,0 +1,45 @@
+.container{
+  width:80%;
+  text-align:center;
+  margin:0 auto;
+  padding:3rem;
+  background-color:#f4f4f4;
+}
+
+hr{
+  width:40%;
+}
+
+input,.search-icon button{
+  border-radius:5px;
+  height:1.5rem;
+  margin-right:1rem;
+}
+
+.random{
+  margin:2rem 0;
+  padding:.5rem;
+}
+
+li{
+  list-style-type:none;
+  border:1px solid gray;
+  border-radius:20px;
+}
+
+li:hover{
+  background-color:#eee;
+}
+
+.wiki-link{
+  text-decoration:none;
+  color:inherit;
+}
+
+footer{
+  text-align:center;
+}
+
+footer .fa-heart{
+  color:red;
+}

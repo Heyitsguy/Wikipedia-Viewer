@@ -1,9 +1,17 @@
+body{
+  background-color:#f4f4f4;
+  background-image: url("http://www.integratedhealthcareyork.com/wp-content/uploads/2017/01/Wiki-image.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+}
+
 .container{
   width:80%;
   text-align:center;
   margin:0 auto;
   padding:3rem;
-  background-color:#f4f4f4;
+  min-height: 500px;
 }
 
 hr{
@@ -25,10 +33,12 @@ li{
   list-style-type:none;
   border:1px solid gray;
   border-radius:20px;
+  background-color:rgba(244,244,244,.7);
 }
 
 li:hover{
   background-color:#eee;
+  opacity: .9;
 }
 
 .wiki-link{
@@ -42,4 +52,10 @@ footer{
 
 footer .fa-heart{
   color:red;
+}
+
+@media screen and (max-width: 900px){
+  body{
+    width:100%;
+  }
 }
